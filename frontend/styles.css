@@ -1,0 +1,12 @@
+﻿@import 'tailwindcss';
+
+body{
+    font-family: 'jetbrains mono';
+}
+
+@font-face {
+    src: url("./public/JetBrainsMono-Light.ttf") format('truetype');
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-display: swap;
+}

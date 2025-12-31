@@ -1,0 +1,44 @@
+# frontend ignores / frontend ignores
+/frontend/node_modules
+/frontend/.env
+
+# backend-elysia ignores / backend-elysia ignores 
+/backend-elysia/node_modules
+/backend-elysia/.pnp
+.pnp.js
+
+# testing
+/backend-elysia/coverage
+
+# next.js
+/backend-elysia/.next/
+/backend-elysia/out/
+
+# production
+/backend-elysia/build
+
+# misc
+/backend-elysia/.DS_Store
+/backend-elysia/*.pem
+
+# debug
+/backend-elysia/npm-debug.log*
+/backend-elysia/yarn-debug.log*
+/backend-elysia/yarn-error.log*
+
+# local env files
+/backend-elysia/.env
+/backend-elysia/.env.local
+/backend-elysia/.env.development.local
+/backend-elysia/.env.test.local
+/backend-elysia/.env.production.local
+
+# vercel
+/backend-elysia/.vercel
+
+/backend-elysia/**/*.trace
+/backend-elysia/**/*.zip
+/backend-elysia/**/*.tar.gz
+/backend-elysia/**/*.tgz
+/backend-elysia/**/*.log
+/backend-elysia/**/*.bun
